@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS externo - 13, 17, 24/04</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                background-image: linear-gradient();
+            }
+
+            legend{
+                color: aqua;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <main>
+                <section class="box">
+                    <form>
+                        <fieldset>
+                            <legend>Formulario de Clientes</legend>
+                            <br>
+                            <section class="inputBox">
+                                <input type="text" name="nome" id="name" class="inputUser" >
+                                <label for="name" class="name" class="labelinput">Nome Completo</label>
+                            </section>
+                            <br>
+                            <section class="inputBox">
+                                <input type="text" name="email" id="email" class="inputUser" required placeholder="seuemail@dominio.com">
+                                <label for="email" class="email" class="labelinput"> Email</label>
+                            </section>
+                            <br>
+                            <section class="inputbox">
+                                <input type="tel" name="telefone" id="telefone" class="inputUser" required placeholder="(XX) XXXXX-XXXX">
+                                <label for="telefone" class="labelinput">Telefone</label>
+                            </section>
+                    
+                
+                </section>
+
+                                    <p>Sexo</p>
+                                    <input type="'radio" name="genero" id="feminino" value="feminino">
+                                    <label form="feminino">Feminino</label>
+                                    <br><br>
+
+                                    <input type="radio" name="genero" id="masculino">
+                                    <label for="masculino">Masculino</label>
+                                    <br><br>
+
+                                    <input type="radio" name="genero" id="outro" value="outro">
+                                    <label for="outro">Outro</label>
+                                    <br><br><br>
+                                    
+                                    <label for="data_nascimento">Data De Nascimento</label>
+                                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                                    <br><br><br>
+
+                                    <section class="inputBox">
+                                        <input type="text" name="cidade" id="cidade" class="ImputUser" required>
+                                        <label for="cidade" class="labelinput">cidade</label>
+                                        <br><br><br><br>
+
+                                        <section class="inputBox">
+                                            <input type="text" name="estado" id="estado" class="ImputUser" required>
+                                            <label for="estado" class="labelinput">Estado</label>
+                                        </section>
+                                        <br><br><br>
+
+                                        <section class=""inputBox>
+                                            <input type="text" name="Endereço" id="Endereço" class="ImputUser" required>
+                                            <label for="Endereço" class="labelinput">Endereço</label>
+                                        </section>
+                                        <br><br><br>
+
+                                        <input type="submit" value="Enviar Formulário" id="enviar">
+
+                        </fieldset>
+                    </form>
+
+                </section>
+            </main>
+        </header>
+    </body>
+</html>
