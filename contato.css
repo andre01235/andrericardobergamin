@@ -1,0 +1,17 @@
+header {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,31,179,1) 35%, rgba(96,0,150,1) 100%);
+}
+#logo{
+    border-radius: 20px;
+}
+.titulo-principal{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family:'GODOFWAR', sem serifa;
+    color: aliceblue;
+
+}
